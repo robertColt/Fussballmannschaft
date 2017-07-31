@@ -1,0 +1,29 @@
+# Rückennummer Vorname+Nachname Position Seit Geburtsdatum GrößeInCm GewichtInKg SpieleInBundesliga ToreInBundesliga Nation Länderspiele
+
+1	Sven Ulreich			TORWART		1998	03.08.1988	189	80	101	0	Deutschland		0
+33	André Weis			TORWART		2011	30.09.1989	189	86 	0	0	Deutschland		0
+22	Marc Ziegler			TORWART		2010	13.06.1976	194 	85 	103	0	Deutschland		0
+15	Arthur Boka			ABWEHR		2006	02.04.1983	166 	67	116	3	Elfenbeinküste		69
+23	Tim Hoogland			ABWEHR		2012	11.06.1985	183 	75 	38	6	Deutschland		0
+21	Cristian Molinaro		ABWEHR		2010	30.07.1983	178 	72 	79	0	Italien			2
+6	Georg Niedermeier		ABWEHR		2009	26.02.1986	188 	74 	78	6	Deutschland		0
+12	Benedikt Röcker			ABWEHR		2011	19.11.1989	197 	90 	1	0	Deutschland		0
+24	Antonio Rüdiger			ABWEHR		2011	03.03.1993	190 	85 	6	0	Deutschland		0
+2	Gotoku Sakai			ABWEHR		2012	14.03.1991	176 	74 	28	0	Japan			2
+5	Serdar Tasçi			ABWEHR		1999	24.04.1987	186 	75 	169	9	Deutschland		14
+11	Johan Audel			MITTELFELD	2010	12.12.1983	180 	75 	3	0	Frankreich		0
+13	Mamadou Bah			MITTELFELD	2010	25.04.1988	181 	75 	6	0	Guinea			31
+10	Daniel Didavi			MITTELFELD	2012	21.02.1990	179 	77 	33	9	Deutschland		0
+20	Christian Gentner		MITTELFELD	2010	14.08.1985	189 	80 	215	24	Deutschland		5
+30	Tamás Hajnal			MITTELFELD	2011	15.03.1981	170 	67 	147	17	Ungarn			52
+26	Raphael Holzhauser		MITTELFELD	2009	16.02.1993	193 	85 	14	0	Österreich		0
+28	Rani Khedira			MITTELFELD	2005	27.01.1994	188 	83 	32	0	Deutschland		0
+8	Zdravko Kuzmanovic		MITTELFELD	2009	22.09.1987	186 	71 	96	17	Serbien			46
+4	William Kvist			MITTELFELD	2011	24.02.1985	184 	78 	46	0	Dänemark		35
+19	Kevin Stöger			MITTELFELD	2009	27.08.1993	175 	70 	40	2	Österreich		0
+16	Ibrahima Traoré			MITTELFELD	2011	21.04.1988	172 	62 	30	2	Guinea			18
+18	Claudemir Jeronimo Barreto	STURM		2003	27.03.1981	178 	74 	286	87	Deutschland		23
+7	Martin Harnik			STURM		2010	10.06.1987	185 	73 	100	32	Österreich		34
+9	Vedad Ibiševic			STURM		2012	06.08.1984	188 	80 	146	67	Bosnien-Herzegowina	43
+31	Shinji Okazaki			STURM		2011	16.04.1986	173 	70 	49	10	Japan			58
+17	Tunay Torun			STURM		2012	21.04.1990	179 	75 	53	6	Türkei			9

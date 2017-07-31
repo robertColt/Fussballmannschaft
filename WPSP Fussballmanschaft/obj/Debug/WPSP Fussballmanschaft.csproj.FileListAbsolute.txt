@@ -1,0 +1,14 @@
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\bin\Debug\WPSP Fussballmanschaft.exe.config
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\bin\Debug\WPSP Fussballmanschaft.exe
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\bin\Debug\WPSP Fussballmanschaft.pdb
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\obj\Debug\WPSP Fussballmanschaft.csprojResolveAssemblyReference.cache
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\obj\Debug\MainWindow.g.cs
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\obj\Debug\App.g.cs
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\obj\Debug\WPSP Fussballmanschaft_MarkupCompile.cache
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\obj\Debug\WPSP Fussballmanschaft_MarkupCompile.lref
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\obj\Debug\MainWindow.baml
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\obj\Debug\WPSP Fussballmanschaft.g.resources
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\obj\Debug\WPSP_Fussballmanschaft.Properties.Resources.resources
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\obj\Debug\WPSP Fussballmanschaft.csproj.GenerateResource.Cache
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\obj\Debug\WPSP Fussballmanschaft.exe
+c:\users\pc2\documents\visual studio 2015\Projects\WPSP Fussballmanschaft\WPSP Fussballmanschaft\obj\Debug\WPSP Fussballmanschaft.pdb

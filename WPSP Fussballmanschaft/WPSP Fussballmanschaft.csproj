@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6939AF54-5BEC-46C4-B035-E8BA909F69DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WPSP_Fussballmanschaft</RootNamespace>
+    <AssemblyName>WPSP Fussballmanschaft</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Kader.cs" />
+    <Compile Include="KaderViewModel.cs" />
+    <Compile Include="Spieler.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SpielerData.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\resultset_first.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\resultset_last.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\resultset_next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\resultset_previous.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Torun Tunay.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Audel Johan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Bah Mamadou.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Barreto Claudemir Jeronimo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Boka Arthur.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Didavi Daniel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Gentner Christian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Hajnal Tamas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Harnik Martin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Holzhauser Raphael.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Hoogland Tim.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Ibisevic Vedad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Kader.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Khedira Rani.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Kuzmanovic Zdravko.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Kvist William.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Molinaro Christian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Niedermeier Georg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Okazaki Shinji.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Roecker Benedikt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Ruediger Antonio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Sakai Gotoku.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Stoeger Kevin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Tasci Serdar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Traore Ibrahima.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Weis Andre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Ziegler Marc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\no-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\no-image-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VfB Stuttgart\Ulreich Sven.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
